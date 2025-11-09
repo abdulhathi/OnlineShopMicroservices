@@ -1,0 +1,34 @@
+##### Domain Analysis
+  - Domain Models
+    - Product and Category one to many relationship
+  - Application Use Cases
+    - Listing products
+    - Listing categories
+    - Search products
+  - REST API End points
+    - GET /products
+    - GET /products/{id}
+    - GET /products/category
+    - POST /products
+    - PUT /products/{id}
+    - DELETE /products/{id}
+  - Underlying Data structures
+    - Document database with store catalog JSON data.
+    - MongoDB No-SQL (or) PostgreSQL DB JSON column.
+
+##### Technical Analysis
+  - Application Architecture style
+    - Vertical slice architecture (UI, Application, Domain, Infrastucture)
+  - Patterns & Principles
+    - CQRS Pattern (Command query responsibility segregation)
+    - Mediator pattern (Object interact through mediator reducing the direct dependency)
+    - Dependency Injection principle instead direct hard coding
+    - Minimal API
+    - ORM (Object relational mapping) Pattern
+  - Libraries & Nuget packages
+    - Mediator for CQRS
+    - Carter for API endpoints
+    - Marten for postgresql
+    - Mapster for object mapping
+    - Fluentvalidation for input validation
+  - Project folder structure
