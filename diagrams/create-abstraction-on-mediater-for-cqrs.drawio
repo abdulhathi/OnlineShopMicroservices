@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="6sat_nDlg9SxHUJ9LQZG">
+    <mxGraphModel dx="811" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-1" value="&lt;h1&gt;Create Abstraction on MediatR for CQRS&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="FvcpYNj4_xQbrhkiQDq6-2" target="FvcpYNj4_xQbrhkiQDq6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-2" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;IRequest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="FvcpYNj4_xQbrhkiQDq6-3" target="FvcpYNj4_xQbrhkiQDq6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-3" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;IRequest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-4" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;IQuery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="241" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-6" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;IQuery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="241" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="FvcpYNj4_xQbrhkiQDq6-8" target="FvcpYNj4_xQbrhkiQDq6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-8" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;IRequestHandler" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="FvcpYNj4_xQbrhkiQDq6-9" target="FvcpYNj4_xQbrhkiQDq6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-9" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;IRequestHandler" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-10" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;IQueryHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="451" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvcpYNj4_xQbrhkiQDq6-11" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;ICommandHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="451" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
