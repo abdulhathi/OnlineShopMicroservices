@@ -1,0 +1,11 @@
+###
+POST http://localhost:5216/products
+Content-Type: application/json
+
+{
+  "Name": "Iphone",
+  "Categories": ["Phone", "Electronics"],
+  "Description": "Iphone smart phone",
+  "ImageFile": "Image-001.jpg",
+  "Price": "100.00"
+}
